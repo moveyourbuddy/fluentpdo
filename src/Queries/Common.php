@@ -17,7 +17,7 @@ abstract class Common extends Base
     protected $joins = array();
 
     /** @var bool - Disable adding undefined joins to query? */
-    protected $isSmartJoinEnabled = true;
+    protected $isSmartJoinEnabled = false;
 
     /**
      * @return $this
